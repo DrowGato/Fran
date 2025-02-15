@@ -3,7 +3,7 @@ onload = () => {
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
 
-    const titles = ('La mas hermosa').split('')
+    const titles = ('Una flor para la mas hermosa').split('')
     const titleElement = document.getElementById('title');
     let index = 0;
 
