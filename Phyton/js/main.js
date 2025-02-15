@@ -3,7 +3,7 @@ onload = () => {
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
 
-    const titles = ('Una flor para la mas hermosa').split('')
+    const titles = ('"Te diría que estoy enamorado hasta de tus defectos, pero no los encuentro.').split('')
     const titleElement = document.getElementById('title');
     let index = 0;
 
