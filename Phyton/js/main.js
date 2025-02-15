@@ -3,7 +3,7 @@ onload = () => {
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
 
-    const titles = ('"Algunos se pierden en laberintos o quizás en islas, pero yo me perdí en tu mirada y tu dulce sonrisa."').split('')
+    const titles = ('"Hay muchos momentos hermosos en la vida pero sin duda el mejor de ellos, fue cuando te conoci"').split('')
     const titleElement = document.getElementById('title');
     let index = 0;
 
