@@ -3,7 +3,7 @@ onload = () => {
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
 
-    const titles = ('"Hay muchos momentos hermosos en la vida pero sin duda el mejor de ellos, fue cuando te conoci"').split('')
+    const titles = ('"Hay muchos momentos hermosos en la vida pero sin duda el mejor de ellos, fue cuando te conoci🖤"').split('')
     const titleElement = document.getElementById('title');
     let index = 0;
 
